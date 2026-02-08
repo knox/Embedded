@@ -1,0 +1,21 @@
+### macOS ###
+.DS_Store
+._*
+!Podfile.lock
+!Gemfile.lock
+*.lock
+*.lock-*
+
+### Xcode ###
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+## Build ###
+build/
+DerivedData/
+.build/
+*.dSYM.zip
+*.ipa
